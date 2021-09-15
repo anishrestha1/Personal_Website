@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website | Anishrestha | Personal Portfolio</title>
+  <meta name="description" content="Welcome to my Personal Portfolio where you can get my information and some sketches that I have made.">
+  <meta name="keywords" content="Personal Website">
+  <meta name="author" content="Anish Var Shrestha">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" ">
+  <link rel="canonical" href="https://anishrestha.name.np/">
+  <link rel="stylesheet" type= "text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header id="header">
+    <a href="https://www.animatedimages.org/cat-nepal-flag-839.htm"><img src="https://www.animatedimages.org/data/media/839/animated-nepal-flag-image-0007.gif" border="0" alt="animated-nepal-flag-image-0007" width="60"></a>
+    <a href="https://anishrestha.name.np/" class="logo"><img src="background_img/anishrestha.png" ></img></a>
+    <div class="toggle"></div>
+    <ul class = "navigation">
+      <li><a href="https://anishrestha.name.np/" class="active">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="https://anishrestha.name.np/Sketch/index-color" target="_blank" rel="noopener noreferrer">Sketch</a></li>
+      <li><a href="https://drive.google.com/file/d/1p6RP5f3NS99hitG1jc5EMcsJaGOZr-tF/view" target="_blank" rel="noopener noreferrer">Resume</a></li>
+    </ul>
+  </header>
+  <section>
+    <img src="background_img/stars.png" id="stars">
+    <img src="background_img/moon.png" id="moon">
+    <img src="background_img/mountains_behind.png" id="mountains_behind">
+    <h2 id="text">Welcome Here</h2>
+    </style>
+    <a href="#sketch" id="btn">Explore</a>
+    <img src="background_img/mountains_front.png" id="mountains_front">
+</section>
+<div class="sec" id="sec">
+   <h2>Welcome To My Portfolio Website</h2> 
+   <br>
+   <p>Building a successfull platform is a challenge. I am highly energetic in experience design, interfaces,python progrramiing, web development and SEO.</p>
+</div>
+<div class="sketches">
+  <h3>Latest Sketch</h3> 
+  <img src="Image/Benedict Cumberbatch.jpg" alt="Benedict Cumberbatch" class="sketch" id="sketch">
+  <p>Benedict Cumberbatch</p>
+</div>
+<div class="sketches">
+  <h3>Swet Bhairav</h3> 
+  <img src="Image/SwetBhairaw.jpg" alt="SwetBhairaw" class="sketch">
+  <div id="container">
+    <div class="button" id="button-3">
+      <div id="circle"></div>
+      <a href="https://anishrestha.name.np/Sketch/index-color">More SKETCHES!</a>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-distributed" id="footer-distributed">
+  <div class="footer-left">
+    <h3>About<span>Anishrestha</span></h3>
+    <p class="footer-links">
+      <a href="https://anishrestha.name.np/" >Home</a>
+      |
+     <!-- <a href="#">Blog</a>
+      |-->
+      <a href="#sec">About</a>
+      |
+      <a href="https://anishrestha.name.np/Sketch/index-color.html">Sketch</a>
+    </p>
+    <p class="footer-company-name">	&copy; 2021 Anishrestha | Personal Portfolio Website.</p>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+        <p><span>Baghdol, Lalitpur </span>
+        Bagmati State, Nepal</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+977 9860103613</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:shresthaanishvar@gmail.com">shresthaanishvar@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <div class="footer-icons">
+      <h4 id="contact">Contact & Connect</h4><br>
+      <a href="https://www.facebook.com/anees.shrestha.76" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/anishresthazpi" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/anishrestha23" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/anish-var-shrestha-03530a132" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/anishrestha1" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+      <a href="https://gitlab.com/anishrestha" target="_blank" rel="noopener noreferrer"><i class="fa fa-gitlab"></i></a>
+      <a href="https://500px.com/anishshrestha2" target="_blank" rel="noopener noreferrer"><i class="fa fa-500px"></i></a>
+                
+    </div>
+  </div>
+</footer>
+<script>
+  const toggleMenu = document.querySelector('.toggle');
+  const navigation = document.querySelector('.navigation');
+  toggleMenu.onclick = function(){
+    toggleMenu.classList.toggle('active');
+    navigation.classList.toggle('active');
+  }
+</script>
+<script>
+  let stars = document.getElementById('stars'); 
+  let moon = document.getElementById('moon'); 
+  let mountains_behind = document.getElementById('mountains_behind');
+  let text = document.getElementById('text');
+  let btn = document.getElementById('btn');
+  let mountains_front = document.getElementById('mountains_front');
+  let header = document.querySelector('header');
+
+  window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+      stars.style.left = value * 0.25 + 'px';
+      moon.style.top = value * 1 + 'px';
+      mountains_behind.style.top = value * 0.5 + 'px';
+      mountains_front.style.top = value * 0 + 'px';
+      text.style.marginRight = value * 4 + 'px';
+      text.style.marginTop = value * 1.5 + 'px';
+      btn.style.marginTop = value * 4 + 'px';
+      header.style.top = value *0.5 + 'px';
+  })
+</script>
+</body>
+</html>
